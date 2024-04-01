@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kingbob</title>
+    <style>
+        
+        div{box-sizing: border-box;}
+        nav{
+            background-color: #E7E5DF;
+            width: 1320px;
+            height: 40px;
+            margin: auto;
+            
+        }
+
+        nav>div{            
+            padding: 0px 10% 0px 10%;
+            
+        }
+
+        ul,li,ol{
+            list-style-type: none;
+            padding: 0px;
+            margin: 0px;
+        }
+
+        a{
+            text-decoration: none;
+            color: black;
+        }
+
+        #navi{
+            height: 100%;
+            
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+            height: 100%;
+            justify-content: space-between;
+            /* align-items: flex-start;  */
+        }
+
+        #navi>li{
+            float: left;
+            /* border: 1px solid white; */
+            width: 100px;
+            height: 100%;
+            text-align: center;
+            
+        }
+
+        #navi a{
+            font-size: 18px;
+            font-weight: 900;
+            width: 100%;
+            height: 100%;
+            display: block;
+            /* vertical-align: middle; 블럭일 때는 안된다 */
+            line-height: 35px;
+        }
+
+        #navi a:hover{
+            color: rgb(124, 124, 124);
+            scale: 1.08;
+        }
+        #navi>li>ul:hover{
+            display: block;
+        }
+
+    </style>
+</head>
+<body>
+    <nav>
+        <div>
+            <ul id="navi">
+                <li><a href="#">음식별</a></li>
+                <li><a href="#">메뉴별</a></li>
+                <li><a href="#">지역별</a></li>
+                <li><a href="#">고객센터</a></li>
+            </ul>
+        </div>        
+    </nav>
+</body>
+</html>
