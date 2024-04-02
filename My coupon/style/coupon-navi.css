@@ -36,14 +36,23 @@ ul,li,ol{
             scale: 1.08;
         }
 
-        #navi>li>ul{
+        /* #navi>li>ul{
             display: none;
-        }
+            
+        } */
 
-        #navi>li>ul a{font-size: 15px;}
+        /* #navi>li>ul a{
+            font-size: 15px;
+            
+        }
         #navi>li>a:hover+ul{
             display: block;
         }
         #navi>li>ul:hover{
             display: block;
+        } */
+
+        .head{
+            display: flex;
+            flex-direction: column;
         }

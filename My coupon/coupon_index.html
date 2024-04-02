@@ -1,52 +1,37 @@
 <!DOCTYPE html>
 <html lang="ko">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>King-bab-bbang</title>
 
-    <link rel="stylesheet" href="./style/index.css">
-    <link rel="stylesheet" href="./style/coupon-navi.css">
-    <link rel="stylesheet" href="./style/coupon-list.css">
+    <link rel="stylesheet" href="./style/index.css" />
+    <link rel="stylesheet" href="./style/coupon-navi.css" />
+    <link rel="stylesheet" href="./style/coupon-list.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+     
+        <header class="header">
+          <!-- 상단바, 네비, 마이쿠폰, 신규발급/만료임박, 쿠폰등록하기 -->
+          <div class="head top">상단바</div>
+          <div class="head navi">네비</div>
+          <div class="head mycoupon">
+            <!-- 브레드 이미지 로고 삽입 -->
+            <div><img src="C:\workspace\SemiProject\My coupon\photo\브레드3세 컬러 왼쪽.png" width="50px" height="50px" alt="브래드"></div>
+            <div><h1>마이쿠폰</h1></div>
+          </div>
+          <div class="head create-coupon">신규발급/만료임박</div>
+          <div class="head" id="enrollcoupon">
+            <nav class="enroll">
+                <div class="enroll-link">
+                  <img src="" alt="홈버튼" />
+                  <div>쿠폰등록하기</div>
+                </div>
+        </header >
+      
 
-</head>
-<body>
-    <div class="wrap">
-    <header>
-
-    </header>
-    <section1>
-        <div id="head1">
-            <div id="bread"><img src="" alt="브레드3세 로고">로고</div>
-            <div>
-                <h1>MY 쿠폰</h1>
-            </div>
-        </div>
-              
-    </section1>
-    <section2>
-        <div id="headnavi">
-            <ul id="navi">
-               <li><a href="#">신규발급순</a></li>
-               <li><a href="#">만료임박순</a></li>
-            </ul>
-        </div>
-        <div id="enrollcoupon">
-            <button class="coupon-insert">
-                <img src="assets/icons/search.svg" alt="검색버튼">
-                <div class="tooltip">쿠폰 등록하기</div>
-            </button>
-        </div> 
-    </section2>    
-    <section3>
-        <div>
-            쿠폰리스트
-        </div>
-        
-    </section3>
-    <footer>
-        sazd
-    </footer>
-</div>
-</body>
+      <!-- <footer><h1>푸터</h1></footer> -->
+    </div>
+  </body>
 </html>
