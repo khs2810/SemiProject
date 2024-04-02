@@ -1,0 +1,46 @@
+.wrap{
+    border: 1px solid blue;
+    width: 1320px;
+    height: 3340px;
+    margin: auto;
+    padding: 0;
+    background-color: #FBFAF6;
+}
+header{
+    border: 1px solid blue;
+    width: 1320px;
+    height: 170px;
+    display: block;
+    position: fixed;
+    top: 0px;
+}
+
+section1{
+    border: 1px solid blue;
+    border-inline-color: black;
+    width: 1320px;
+    height: 280px;
+    
+}
+
+section2{
+    border: 1px solid blue;
+    width: 1320px;
+    height: 280px;
+}
+
+section3 > div{
+    border: 1px solid red;
+    width: 1320px;
+    height: 2000px;
+    top: 170px;
+}
+
+footer{
+    border: 1px solid blue;
+    width: 1320px;
+    height: 280px;
+    display: block;
+    position: fixed;
+    bottom: 0px;
+}

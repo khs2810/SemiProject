@@ -1,0 +1,49 @@
+ul,li,ol{
+            list-style-type: none;
+            padding: 0px;
+            margin: 0px;
+        }
+
+        a{
+            text-decoration: none;
+            color: black;
+        }
+
+        #navi{
+            height: 100%;
+        }
+
+        #navi>li{
+            float: left;
+            border: 1px solid white;
+            width: 100px;
+            height: 100%;
+            text-align: center;
+        }
+
+        #navi a{
+            font-size: 18px;
+            font-weight: 900;
+            width: 100%;
+            height: 100%;
+            display: block;
+            /* vertical-align: middle; 블럭일 때는 안된다 */
+            line-height: 35px;
+        }
+
+        #navi a:hover{
+            color: rgb(124, 124, 124);
+            scale: 1.08;
+        }
+
+        #navi>li>ul{
+            display: none;
+        }
+
+        #navi>li>ul a{font-size: 15px;}
+        #navi>li>a:hover+ul{
+            display: block;
+        }
+        #navi>li>ul:hover{
+            display: block;
+        }
